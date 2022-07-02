@@ -5,6 +5,7 @@
   "author": "JayeshLab <helloiamjayesh@gmail.com>",
   "scripts": {
     "serve": "vue-cli-service serve",
+    "start": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "docs": "vue-cli-service build --dest docs"
