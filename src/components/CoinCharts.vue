@@ -293,7 +293,7 @@ export default {
 
       axios({
         method: 'GET',
-        url: 'https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest?CMC_PRO_API_KEY=66897c15-3b80-44fb-aacb-adb6a31353b1&start=1&limit=1&convert=USD/'
+        url: 'https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest?CMC_PRO_API_KEY=66897c15-3b80-44fb-aacb-adb6a31353b1&start=1&limit=1&convert=USD'
       }).then(
         result => {
           console.log(result.data)
